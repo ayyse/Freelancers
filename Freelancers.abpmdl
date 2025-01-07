@@ -1,0 +1,101 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Freelancers.Application": {
+      "path": "src/Freelancers.Application/Freelancers.Application.abppkg",
+      "folder": "src"
+    },
+    "Freelancers.Application.Tests": {
+      "path": "test/Freelancers.Application.Tests/Freelancers.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Freelancers.Domain.Shared": {
+      "path": "src/Freelancers.Domain.Shared/Freelancers.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Freelancers.Application.Contracts": {
+      "path": "src/Freelancers.Application.Contracts/Freelancers.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Freelancers.HttpApi": {
+      "path": "src/Freelancers.HttpApi/Freelancers.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Freelancers.HttpApi.Client": {
+      "path": "src/Freelancers.HttpApi.Client/Freelancers.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Freelancers.EntityFrameworkCore.Tests": {
+      "path": "test/Freelancers.EntityFrameworkCore.Tests/Freelancers.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Freelancers.EntityFrameworkCore": {
+      "path": "src/Freelancers.EntityFrameworkCore/Freelancers.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Freelancers.TestBase": {
+      "path": "test/Freelancers.TestBase/Freelancers.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Freelancers.Domain.Tests": {
+      "path": "test/Freelancers.Domain.Tests/Freelancers.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Freelancers.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Freelancers.HttpApi.Client.ConsoleTestApp/Freelancers.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Freelancers.DbMigrator": {
+      "path": "src/Freelancers.DbMigrator/Freelancers.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Freelancers.HttpApi.Host": {
+      "path": "src/Freelancers.HttpApi.Host/Freelancers.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Freelancers.Domain": {
+      "path": "src/Freelancers.Domain/Freelancers.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

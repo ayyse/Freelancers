@@ -1,0 +1,16 @@
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/bin/Debug/net9.0/Freelancers.Application.Contracts.deps.json
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/bin/Debug/net9.0/Freelancers.Application.Contracts.dll
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/bin/Debug/net9.0/Freelancers.Application.Contracts.pdb
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/bin/Debug/net9.0/Freelancers.Domain.Shared.dll
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/bin/Debug/net9.0/Freelancers.Domain.Shared.pdb
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/obj/Debug/net9.0/Freelancers.Application.Contracts.csproj.AssemblyReference.cache
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/obj/Debug/net9.0/Freelancers.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/obj/Debug/net9.0/Freelancers.Application.Contracts.AssemblyInfoInputs.cache
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/obj/Debug/net9.0/Freelancers.Application.Contracts.AssemblyInfo.cs
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/obj/Debug/net9.0/Freelancers.Application.Contracts.csproj.CoreCompileInputs.cache
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/obj/Debug/net9.0/Freelancers.Application.Contracts.sourcelink.json
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/obj/Debug/net9.0/Freelanc.10BEB029.Up2Date
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/obj/Debug/net9.0/Freelancers.Application.Contracts.dll
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/obj/Debug/net9.0/refint/Freelancers.Application.Contracts.dll
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/obj/Debug/net9.0/Freelancers.Application.Contracts.pdb
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/obj/Debug/net9.0/ref/Freelancers.Application.Contracts.dll

@@ -1,0 +1,740 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.HttpApi.Host/Freelancers.HttpApi.Host.csproj": {}
+  },
+  "projects": {
+    "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/Freelancers.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/Freelancers.Application.Contracts.csproj",
+        "projectName": "Freelancers.Application.Contracts",
+        "projectPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/Freelancers.Application.Contracts.csproj",
+        "packagesPath": "/Users/furkangumrukcu/.nuget/packages/",
+        "outputPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/furkangumrukcu/Desktop/Freelancers/NuGet.Config",
+          "/Users/furkangumrukcu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/Freelancers.Domain.Shared.csproj": {
+                "projectPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/Freelancers.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Volo.Abp.Account.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.FeatureManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.Identity.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.PermissionManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.SettingManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.TenantManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application/Freelancers.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application/Freelancers.Application.csproj",
+        "projectName": "Freelancers.Application",
+        "projectPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application/Freelancers.Application.csproj",
+        "packagesPath": "/Users/furkangumrukcu/.nuget/packages/",
+        "outputPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/furkangumrukcu/Desktop/Freelancers/NuGet.Config",
+          "/Users/furkangumrukcu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/Freelancers.Application.Contracts.csproj": {
+                "projectPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/Freelancers.Application.Contracts.csproj"
+              },
+              "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain/Freelancers.Domain.csproj": {
+                "projectPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain/Freelancers.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Volo.Abp.Account.Application": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.FeatureManagement.Application": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.Identity.Application": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.PermissionManagement.Application": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.SettingManagement.Application": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.TenantManagement.Application": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/Freelancers.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/Freelancers.Domain.Shared.csproj",
+        "projectName": "Freelancers.Domain.Shared",
+        "projectPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/Freelancers.Domain.Shared.csproj",
+        "packagesPath": "/Users/furkangumrukcu/.nuget/packages/",
+        "outputPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/furkangumrukcu/Desktop/Freelancers/NuGet.Config",
+          "/Users/furkangumrukcu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.AuditLogging.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.BackgroundJobs.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.BlobStoring.Database.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.FeatureManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.GlobalFeatures": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.Identity.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.OpenIddict.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.SettingManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.TenantManagement.Domain.Shared": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain/Freelancers.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain/Freelancers.Domain.csproj",
+        "projectName": "Freelancers.Domain",
+        "projectPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain/Freelancers.Domain.csproj",
+        "packagesPath": "/Users/furkangumrukcu/.nuget/packages/",
+        "outputPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/furkangumrukcu/Desktop/Freelancers/NuGet.Config",
+          "/Users/furkangumrukcu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/Freelancers.Domain.Shared.csproj": {
+                "projectPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/Freelancers.Domain.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Volo.Abp.AuditLogging.Domain": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.BackgroundJobs.Domain": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.BlobStoring.Database.Domain": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.Caching": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.Emailing": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.FeatureManagement.Domain": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.Identity.Domain": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.OpenIddict.Domain": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.Identity": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.OpenIddict": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.SettingManagement.Domain": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.TenantManagement.Domain": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.EntityFrameworkCore/Freelancers.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.EntityFrameworkCore/Freelancers.EntityFrameworkCore.csproj",
+        "projectName": "Freelancers.EntityFrameworkCore",
+        "projectPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.EntityFrameworkCore/Freelancers.EntityFrameworkCore.csproj",
+        "packagesPath": "/Users/furkangumrukcu/.nuget/packages/",
+        "outputPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.EntityFrameworkCore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/furkangumrukcu/Desktop/Freelancers/NuGet.Config",
+          "/Users/furkangumrukcu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain/Freelancers.Domain.csproj": {
+                "projectPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain/Freelancers.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Volo.Abp.AuditLogging.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.BackgroundJobs.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.BlobStoring.Database.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.PostgreSql": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.FeatureManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.OpenIddict.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.PermissionManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.SettingManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.TenantManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.HttpApi.Host/Freelancers.HttpApi.Host.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.HttpApi.Host/Freelancers.HttpApi.Host.csproj",
+        "projectName": "Freelancers.HttpApi.Host",
+        "projectPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.HttpApi.Host/Freelancers.HttpApi.Host.csproj",
+        "packagesPath": "/Users/furkangumrukcu/.nuget/packages/",
+        "outputPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.HttpApi.Host/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/furkangumrukcu/Desktop/Freelancers/NuGet.Config",
+          "/Users/furkangumrukcu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application/Freelancers.Application.csproj": {
+                "projectPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application/Freelancers.Application.csproj"
+              },
+              "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.EntityFrameworkCore/Freelancers.EntityFrameworkCore.csproj": {
+                "projectPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.EntityFrameworkCore/Freelancers.EntityFrameworkCore.csproj"
+              },
+              "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.HttpApi/Freelancers.HttpApi.csproj": {
+                "projectPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.HttpApi/Freelancers.HttpApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.UI": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.InMemory.Storage": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Volo.Abp.Account.Web.OpenIddict": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.AspNetCore.MultiTenancy": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Volo.Abp.AspNetCore.Serilog": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.Studio.Client.AspNetCore": {
+              "target": "Package",
+              "version": "[0.9.18, )"
+            },
+            "Volo.Abp.Swashbuckle": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.HttpApi/Freelancers.HttpApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.HttpApi/Freelancers.HttpApi.csproj",
+        "projectName": "Freelancers.HttpApi",
+        "projectPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.HttpApi/Freelancers.HttpApi.csproj",
+        "packagesPath": "/Users/furkangumrukcu/.nuget/packages/",
+        "outputPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.HttpApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/furkangumrukcu/Desktop/Freelancers/NuGet.Config",
+          "/Users/furkangumrukcu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/Freelancers.Application.Contracts.csproj": {
+                "projectPath": "/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Application.Contracts/Freelancers.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Volo.Abp.Account.HttpApi": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.FeatureManagement.HttpApi": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.Identity.HttpApi": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.PermissionManagement.HttpApi": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.SettingManagement.HttpApi": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Volo.Abp.TenantManagement.HttpApi": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

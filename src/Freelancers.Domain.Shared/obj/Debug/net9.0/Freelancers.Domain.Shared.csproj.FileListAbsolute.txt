@@ -1,0 +1,14 @@
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/bin/Debug/net9.0/Freelancers.Domain.Shared.deps.json
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/bin/Debug/net9.0/Freelancers.Domain.Shared.dll
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/bin/Debug/net9.0/Freelancers.Domain.Shared.pdb
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/obj/Debug/net9.0/Freelancers.Domain.Shared.csproj.AssemblyReference.cache
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/obj/Debug/net9.0/Freelancers.Domain.Shared.EmbeddedFilesManifest.cache
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/obj/Debug/net9.0/Freelancers.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/obj/Debug/net9.0/Freelancers.Domain.Shared.AssemblyInfoInputs.cache
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/obj/Debug/net9.0/Freelancers.Domain.Shared.AssemblyInfo.cs
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/obj/Debug/net9.0/Freelancers.Domain.Shared.csproj.CoreCompileInputs.cache
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/obj/Debug/net9.0/Freelancers.Domain.Shared.sourcelink.json
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/obj/Debug/net9.0/Freelancers.Domain.Shared.dll
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/obj/Debug/net9.0/refint/Freelancers.Domain.Shared.dll
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/obj/Debug/net9.0/Freelancers.Domain.Shared.pdb
+/Users/furkangumrukcu/Desktop/Freelancers/src/Freelancers.Domain.Shared/obj/Debug/net9.0/ref/Freelancers.Domain.Shared.dll
